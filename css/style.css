@@ -1,0 +1,65 @@
+*{
+    color: rgb(255, 172, 186);
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logo2{
+    width: 60px;
+    height: 60px;
+}
+@media (min-width:1000px) {
+  .images{
+    height: 350px;
+    width: 500px;
+  }
+}
+@media (min-width:600px) {
+  .desktop-modal{
+    overflow: hidden
+  }
+}
+@media (max-width:690px) {
+    .menu-center{
+        margin-left: -20px;
+    }
+    .bottom_menu{
+        display: none;
+    }
+    .logo{
+        width: 160px;
+        height: 160px;
+    }
+    .upper_menu{
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+}
+  /* label color */
+  .input-field label {
+    color: #f14a17;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: rgb(255, 172, 186);
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #f14a17;
+    box-shadow: 0 1px 0 0 #f14a17;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid rgb(255, 172, 186);
+    box-shadow: 0 1px 0 0 rgb(255, 172, 186);
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #f14a17;
+    box-shadow: 0 1px 0 0 #f14a17;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #f14a17;
+  }
